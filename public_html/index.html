@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <title>HTML5 image crop tool | Script Tutorials</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<header>
+    Select a picture:
+    <select id="mySelect">
+        <option>picture-1.jpg</option>
+        <option>picture-2.jpg</option>
+        <option>picture-3.jpg</option>
+        <option>picture-4.jpg</option>
+    </select>
+
+    <button type="button" onclick="loadSelectedPicture()">Load picture</button>
+    </header>
+<div class="container">
+    <div class="contr">
+        <button onclick="getResults()">Crop</button>
+    </div>
+    <canvas id="panel" width="779" height="519"></canvas>
+    <div id="results">
+        <h2>Please make selection for cropping and click 'Crop' button.</h2>
+        <img id="crop_result" />
+        <div class="contr">
+            <button onclick="saveImage()">Save image</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

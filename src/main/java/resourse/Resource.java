@@ -1,0 +1,4 @@
+package resourse;
+
+interface Resource {
+}
