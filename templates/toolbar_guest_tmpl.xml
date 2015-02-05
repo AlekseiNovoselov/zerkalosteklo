@@ -1,0 +1,13 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+<header>
+    Select a picture:
+    <select id="mySelect">
+        <option>picture-1.jpg</option>
+        <option>picture-2.jpg</option>
+        <option>picture-3.jpg</option>
+        <option>picture-4.jpg</option>
+    </select>
+
+    <button type="button" onclick="loadSelectedPicture()">Load picture</button>
+</header>
+</fest:template>

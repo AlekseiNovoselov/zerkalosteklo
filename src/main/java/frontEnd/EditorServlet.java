@@ -21,14 +21,12 @@ public class EditorServlet extends HttpServlet {
         this.editorService = editor;
     }
 
-    @Override
     public void doGet(HttpServletRequest request,
                       HttpServletResponse response) throws ServletException, IOException {
         response.sendRedirect("/#");
         response.setStatus(HttpServletResponse.SC_METHOD_NOT_ALLOWED);
     }
 
-    @Override
     public void doPost(HttpServletRequest request,
                        HttpServletResponse response) throws ServletException, IOException {
         InputStream tmp = request.getInputStream();

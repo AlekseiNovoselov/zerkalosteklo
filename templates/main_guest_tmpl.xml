@@ -1,0 +1,15 @@
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+<div class="container">
+    <div class="contr">
+        <button class="lexaClass">Crop</button>
+    </div>
+    <canvas id="panel" width="779" height="519"></canvas>
+    <div id="results">
+        <h2>Please make selection for cropping and click 'Crop' button.</h2>
+        <img id="crop_result" />
+        <div class="contr">
+            <button onclick="saveImage()">Save image</button>
+        </div>
+    </div>
+</div>
+</fest:template>

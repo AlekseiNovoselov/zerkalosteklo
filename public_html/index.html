@@ -3,34 +3,15 @@
 <head>
     <meta charset="utf-8" />
     <title>HTML5 image crop tool | Script Tutorials</title>
-    <link href="css/main.css" rel="stylesheet" type="text/css" />
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="js/script.js"></script>
+    <link href="css/justifiedGallery.min.css" rel="stylesheet" type='text/css' media='all' />
+    <link href="css/swipebox.css" rel="stylesheet" type='text/css' media='all' />
+    <script src="js/lib/jquery.js"></script>
+    <!--<script src="js/script.js"></script>-->
 </head>
 <body>
-<header>
-    Select a picture:
-    <select id="mySelect">
-        <option>picture-1.jpg</option>
-        <option>picture-2.jpg</option>
-        <option>picture-3.jpg</option>
-        <option>picture-4.jpg</option>
-    </select>
-
-    <button type="button" onclick="loadSelectedPicture()">Load picture</button>
-    </header>
-<div class="container">
-    <div class="contr">
-        <button onclick="getResults()">Crop</button>
-    </div>
-    <canvas id="panel" width="779" height="519"></canvas>
-    <div id="results">
-        <h2>Please make selection for cropping and click 'Crop' button.</h2>
-        <img id="crop_result" />
-        <div class="contr">
-            <button onclick="saveImage()">Save image</button>
-        </div>
-    </div>
-</div>
+    <div class="toolbar"></div>
+    <div class="main"></div>
+    <script data-main="/js/main.js" src="/js/lib/require.js">
+    </script>
 </body>
 </html>
