@@ -1,0 +1,12 @@
+<class type='resourse.AlbumQueries'>
+    <db_dropAlbum>DROP TABLE IF EXISTS Album;</db_dropAlbum>>
+    <db_createAlbum>
+        CREATE TABLE IF NOT EXISTS `kubDB`.`Album` (
+        `id` INT NOT NULL AUTO_INCREMENT,
+        `name` CHAR(45) NOT NULL,
+        `date_of_create` DATETIME NOT NULL,
+        `quantity_of_images` INT DEFAULT 0,
+        PRIMARY KEY (`id`))
+        ENGINE = InnoDB;
+    </db_createAlbum>
+</class>
