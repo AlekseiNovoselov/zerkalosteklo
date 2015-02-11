@@ -1,6 +1,4 @@
 <fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
-    <h1>Swipebox test</h1>
-    <div class="swipeboxEx">
         <a href="../photos/8083451788_552becfbc7_b.jpg" title="What's your destination?">
             <img alt="What's your destination?" src="../photos/8083451788_552becfbc7_m.jpg" />
         </a>
@@ -28,5 +26,4 @@
         <a href="../photos/6791628438_affaa19e10_b.jpg" title="This is the colors I love">
             <img alt="This is the colors I love" src="../photos/6791628438_affaa19e10_m.jpg" />
         </a>
-    </div>
 </fest:template>

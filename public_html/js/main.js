@@ -10,6 +10,7 @@ requirejs.config({
         "jquery.validate" : "lib/jquery.validate",
         "justifiedGallery" : "lib/justifiedGallery",
         "swipebox" : "lib/jquery.swipebox.min",
+        "search" : "lib/search",
         // Templates/**
         "game_tmpl" : "tmpl/game_tmpl",
         "login_tmpl" : "tmpl/login_tmpl",
@@ -21,7 +22,12 @@ requirejs.config({
         "profile_tmpl" : "tmpl/profile_tmpl",
         "toolbar_user_tmpl" : "tmpl/toolbar_user_tmpl",
         "toolbar_guest_tmpl" : "tmpl/toolbar_guest_tmpl",
+        "breadcrumbs_tmpl" : "tmpl/breadcrumbs_tmpl",
         "big_images_tmpl" : "tmpl/big_images_tmpl",
+        "gallery1_tmpl" : "tmpl/gallery1_tmpl",
+        "gallery2_tmpl" : "tmpl/gallery2_tmpl",
+        "search_result_tmpl" : "tmpl/search_result_tmpl",
+
         // Router
         "router" : "router",
         // Views
@@ -33,13 +39,18 @@ requirejs.config({
         "profile_view" : "views/profile_view",
         "alert_view" : "views/alert_view",
         "view_manager" : "views/view_manager",
-        "toolbar_view" : "views/;toolbar_view",
+        "toolbar_view" : "views/toolbar_view",
         "canvas_view" : "views/canvas_view",
         "joystick_view" : "views/joystick_view",
+        "gallery1_view" : "views/gallery1_view",
+        "gallery2_view" : "views/gallery2_view",
+        "breadcrumbs_view" : "views/breadcrumbs_view",
+        "search_view" : "views/search_view",
         // Models
         "image_model" : "models/image_model",
         "user_model" : "models/user_model",
         "selection_model" : "models/selection_model",
+        "search_model" : "models/search_model",
         // Collections
         //Scripts
         "cropper" : "scripts/cropper",

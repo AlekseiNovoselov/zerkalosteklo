@@ -1,12 +1,21 @@
 <class type='resourse.AlbumQueries'>
-    <db_dropAlbum>DROP TABLE IF EXISTS Album;</db_dropAlbum>>
+    <db_dropAlbum>DROP TABLE IF EXISTS `kubDB`.`Album`;</db_dropAlbum>>
     <db_createAlbum>
-        CREATE TABLE IF NOT EXISTS `kubDB`.`Album` (
-        `id` INT NOT NULL AUTO_INCREMENT,
-        `name` CHAR(45) NOT NULL,
-        `date_of_create` DATETIME NOT NULL,
-        `quantity_of_images` INT DEFAULT 0,
-        PRIMARY KEY (`id`))
-        ENGINE = InnoDB;
+        CREATE TABLE IF NOT EXISTS `kubDB`.`Album` ( `id` INT NOT NULL AUTO_INCREMENT, `name` CHAR(45) NOT NULL, `date_of_create` DATETIME NOT NULL, `quantity_of_images` INT DEFAULT 0, PRIMARY KEY (`id`)) ENGINE = InnoDB;
     </db_createAlbum>
+    <db_addAlbum>
+        INSERT INTO `kubDB`.`Album` (`name`, `date_of_create`, `quantity_of_images`) VALUES (?, NOW(), ?);
+    </db_addAlbum>
+    <db_isAlbumExistsByName>
+        SELECT COUNT(*) as count FROM `kubDB`.`Album` WHERE name = ? ;
+    </db_isAlbumExistsByName>
+    <db_getAlbumByName>
+        SELECT * FROM `kubDB`.`Album` WHERE name = ?;
+    </db_getAlbumByName>
+    <db_getAllAlbums>
+        SELECT * FROM `kubDB`.`Album`;
+    </db_getAllAlbums>
+    <db_deleteAlbumByName>
+        DELETE FROM `kubDB`.`Album` WHERE name = ?
+    </db_deleteAlbumByName>
 </class>

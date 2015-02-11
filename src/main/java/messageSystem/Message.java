@@ -1,7 +1,22 @@
 package messageSystem;
 
-/**
- * Created by aleksei on 06.02.15.
- */
-public class Message {
+
+public abstract class Message {
+    private final Address from;
+    private final Address to;
+
+    public Message(Address from, Address to) {
+        this.from = from;
+        this.to = to;
+    }
+
+    public Address getFrom() {
+        return from;
+    }
+
+    public Address getTo() {
+        return to;
+    }
+
+    public abstract void exec(Abonent abonent);
 }

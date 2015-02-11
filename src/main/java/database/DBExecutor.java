@@ -1,6 +1,7 @@
 package database;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
@@ -17,6 +18,12 @@ public class DBExecutor {
             try (ResultSet result = stmt.getResultSet()) {
                 return  handler.handle(result);
             }
+        }
+    }
+
+    public static <T> T execPreparedQuery(PreparedStatement preparedStatement, ResultHandler<T> handler) throws Exception {
+        try (ResultSet result = preparedStatement.getResultSet()) {
+            return  handler.handle(result);
         }
     }
 }

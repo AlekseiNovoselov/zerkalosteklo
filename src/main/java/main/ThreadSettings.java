@@ -1,7 +1,5 @@
 package main;
 
-/**
- * Created by aleksei on 06.02.15.
- */
-public class ThreadSettings {
+public interface ThreadSettings {
+    int SERVICE_SLEEP_TIME = 15;
 }

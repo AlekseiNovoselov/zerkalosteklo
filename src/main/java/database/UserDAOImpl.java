@@ -2,6 +2,7 @@ package database;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
+import java.util.ArrayList;
 
 public class UserDAOImpl implements UserDAO {
 
@@ -13,12 +14,15 @@ public class UserDAOImpl implements UserDAO {
 
     @Override
     public void createTable() throws Exception {
-        String createTableSQL = "CREATE TABLE `kubanzskDB`.`user` ("
-                + "`id` INT NOT NULL,"
-                + "`login` VARCHAR(45) NULL,"
-                + "`password` VARCHAR(45) NULL,"
-                + " `email` VARCHAR(45) NULL,"
-                + "PRIMARY KEY (`id`));";
+        String createTableSQL = "CREATE TABLE IF NOT EXISTS user("
+                + "id INT(9) UNSIGNED NOT NULL AUTO_INCREMENT, "
+                + "login VARCHAR(20) NOT NULL DEFAULT \"guest\", "
+                + "email VARCHAR(20) NOT NULL DEFAULT \"guest\", "
+                + "password VARCHAR(20) NOT NULL DEFAULT \"guest\", "
+                + "score INT(6) UNSIGNED NOT NULL DEFAULT 0, "
+                + "PRIMARY KEY (id), "
+                + "KEY (email)"
+                + ");";
         DBExecutor.execUpdate(db_connection, createTableSQL);
     }
 
@@ -26,9 +30,9 @@ public class UserDAOImpl implements UserDAO {
     public void add(UserDataSet user) throws Exception {
         String sqlStatement;
         if(user.getEmail().equals("admin@admin.ru"))
-            sqlStatement = "INSERT INTO user (id,login,email,password) VALUES (\"" + user.getId() + "\",\"" + user.getLogin() + "\",\"" + user.getEmail() + "\",\"" + user.getPassword() + "\"," + ");";
+            sqlStatement = "INSERT INTO user (id,login,email,password,score) VALUES (\"" + user.getId() + "\",\"" + user.getLogin() + "\",\"" + user.getEmail() + "\",\"" + user.getPassword() + "\"," + user.getScore() + ");";
         else
-            sqlStatement = "INSERT INTO user (login,email,password) VALUES (\"" + user.getLogin() + "\",\"" + user.getEmail() + "\",\"" + user.getPassword() + "\"," + ");";
+            sqlStatement = "INSERT INTO user (login,email,password,score) VALUES (\"" + user.getLogin() + "\",\"" + user.getEmail() + "\",\"" + user.getPassword() + "\"," + user.getScore() + ");";
         DBExecutor.execUpdate(db_connection, sqlStatement);
     }
 
@@ -55,11 +59,12 @@ public class UserDAOImpl implements UserDAO {
             @Override
             public UserDataSet handle(ResultSet result) throws Exception {
                 if (result.first()) {
-                    Integer id = result.getInt("id");
+                    Long id = result.getLong("id");
                     String login = result.getString("login");
                     String email = result.getString("email");
                     String password = result.getString("password");
-                    return new UserDataSet(id,login,email,password);
+                    Long score = result.getLong("score");
+                    return new UserDataSet(id,login,email,password,score);
                 }
                 else {
                     return null;
@@ -77,16 +82,67 @@ public class UserDAOImpl implements UserDAO {
             @Override
             public UserDataSet handle(ResultSet result) throws Exception {
                 if (result.first()) {
-                    Integer id = result.getInt("id");
+                    Long id = result.getLong("id");
                     String login = result.getString("login");
                     String email = result.getString("email");
                     String password = result.getString("password");
-                    return new UserDataSet(id,login,email,password);
+                    Long score = result.getLong("score");
+                    return new UserDataSet(id,login,email,password,score);
                 }
                 else {
                     return null;
                 }
             }
         });
+    }
+
+    @Override
+    public Integer getNumber() throws Exception {
+        String sqlStatement = "SELECT COUNT(*) as count FROM user;";
+        return DBExecutor.execQuery(db_connection, sqlStatement, new ResultHandler<Integer>() {
+            @Override
+            public Integer handle(ResultSet result) throws Exception {
+                int count = 0;
+                if (result.first()) {
+                    count = result.getInt("count");
+                }
+                return count;
+            }
+        });
+    }
+
+    @Override
+    public ArrayList<UserDataSet> getTop10() throws Exception {
+        String sqlStatement = "SELECT * FROM user " +
+                "ORDER BY -score " +
+                "LIMIT 10;";
+        return DBExecutor.execQuery(db_connection, sqlStatement, new ResultHandler<ArrayList<UserDataSet>>() {
+            @Override
+            public ArrayList<UserDataSet> handle(ResultSet result) throws Exception {
+                ArrayList<UserDataSet> users = new ArrayList<>();
+                while (result.next()) {
+                    Long id = result.getLong("id");
+                    String login = result.getString("login");
+                    String email = result.getString("email");
+                    String password = result.getString("password");
+                    Long score = result.getLong("score");
+                    users.add(new UserDataSet(id,login,email,password,score));
+                }
+                return users;
+            }
+        });
+    }
+
+    @Override
+    public void increaseScore(String email, int scoreToIncrease) throws Exception {
+        String sqlStatement = "UPDATE user SET score=score+\"" + scoreToIncrease + "\"" + "WHERE email = \"" + email +"\";";
+        DBExecutor.execUpdate(db_connection, sqlStatement);
+    }
+
+    @Override
+    public void delete(String email) throws Exception {
+        String sqlStatement = "DELETE FROM user " +
+                "WHERE email = \"" + email+ "\";";
+        DBExecutor.execUpdate(db_connection, sqlStatement);
     }
 }

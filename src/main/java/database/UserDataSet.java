@@ -1,23 +1,25 @@
 package database;
 
 public class UserDataSet {
-    private int id;
+    private long id;
     private String email;
     private String login;
     private String password;
+    private long score;
 
-    public UserDataSet(int id, String login, String email, String password) {
+    public UserDataSet(long id, String login, String email, String password, long score) {
         this.id = id;
         this.email = email;
         this.login = login;
         this.password = password;
+        this.score = score;
     }
 
     public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -45,4 +47,11 @@ public class UserDataSet {
         this.password = password;
     }
 
+    public long getScore() {
+        return score;
+    }
+
+    public void setScore(long score) {
+        this.score = score;
+    }
 }

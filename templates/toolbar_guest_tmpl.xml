@@ -1,4 +1,15 @@
 <fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <form method="get" action="/search" class="search__form">
+        <p><input type="search" name="q" placeholder="Поиск по сайту" class="search__query"></input>
+            <input type="submit" value="Найти" class="search__submit"></input>
+        </p>
+    </form>
+    <a href="/#" class="btn screen__toolbar__name">AlexGame </a>
+    <a href="#gallery1" class="btn screen__toolbar__profile">Gallery1 </a>
+    <a href="#gallery2" class="btn screen__toolbar__logout">Gory</a>
+</fest:template>
+
+<!--<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
 <header>
     Select a picture:
     <select id="mySelect">
@@ -10,4 +21,4 @@
 
     <button type="button" onclick="loadSelectedPicture()">Load picture</button>
 </header>
-</fest:template>
+</fest:template>-->

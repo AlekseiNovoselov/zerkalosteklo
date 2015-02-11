@@ -1,7 +1,5 @@
 package messageSystem;
 
-/**
- * Created by aleksei on 06.02.15.
- */
-public class Abonent {
+public interface Abonent {
+    Address getAddress();
 }

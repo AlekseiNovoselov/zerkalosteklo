@@ -1,0 +1,27 @@
+<class type='resourse.ImageQueries'>
+    <db_dropImage>DROP TABLE IF EXISTS `kubDB`.`Image`;</db_dropImage>
+    <db_createImage>
+        CREATE TABLE IF NOT EXISTS `kubDB`.`Image` ( `id` INT NOT NULL AUTO_INCREMENT, `name` CHAR(45) NOT NULL, `date_of_create` DATETIME NOT NULL, `album` CHAR(45) NULL, PRIMARY KEY (`id`)) ENGINE = InnoDB;
+    </db_createImage>
+    <db_addImage>
+        INSERT INTO `kubDB`.`Image` (`name`, `date_of_create`, `album`) VALUES (?, NOW(), ?);
+    </db_addImage>
+    <db_isImageExistsByName>
+        SELECT COUNT(*) as count FROM `kubDB`.`Image` WHERE name = ?;
+    </db_isImageExistsByName>
+    <db_getImageByName>
+        SELECT * FROM `kubDB`.`Image` WHERE name = ?;
+    </db_getImageByName>
+    <db_getAllImageByAlbum>
+        SELECT * FROM `kubDB`.`Image` WHERE album = ?;
+    </db_getAllImageByAlbum>
+    <db_deleteImageByName>
+        DELETE FROM `kubDB`.`Image` WHERE name = ?;
+    </db_deleteImageByName>
+    <db_deleteImageByAlbum>
+        DELETE FROM Image WHERE album = ?;
+    </db_deleteImageByAlbum>
+    <db_searchImageByNameLike>
+        SELECT * FROM Image WHERE name LIKE ?;
+    </db_searchImageByNameLike>
+</class>

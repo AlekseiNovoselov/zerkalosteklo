@@ -1,42 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="zerkaloSteclo:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c9ebb617-598a-4956-a670-77ed3571cfb9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duke.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/duke.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/picture-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/CropImageLocalHelp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/Cropper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/SendEmail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/big_images_tmpl.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/js/scripts/cropper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/js/models/image_model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/js/lib/jquery.swipebox.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/js/scripts/justGallery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/js/lib/justifiedGallery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/css/justifiedGallery.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/main_guest_tmpl.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/main_user_tmpl.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/js/views/main_view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/js/models/selection_model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/css/swipebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/toolbar_guest_tmpl.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/toolbar_user_tmpl.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/js/models/user_model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/js/views/view_manager.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/uploads/static1886672445.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/uploads/static246525784.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/frontEnd/EditorServlet.java" afterPath="$PROJECT_DIR$/src/main/java/frontEnd/EditorServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/zerkaloSteclo_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/justifyGallery/Justified-Gallery" afterPath="$PROJECT_DIR$/lib/justifyGallery/Justified-Gallery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/messageSystem/Abonent.java" afterPath="$PROJECT_DIR$/src/main/java/messageSystem/Abonent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/AccountService.java" afterPath="$PROJECT_DIR$/src/main/java/base/AccountService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/AccountServiceError.java" afterPath="$PROJECT_DIR$/src/main/java/base/AccountServiceError.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/AccountServiceResponse.java" afterPath="$PROJECT_DIR$/src/main/java/base/AccountServiceResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/messageSystem/Address.java" afterPath="$PROJECT_DIR$/src/main/java/messageSystem/Address.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/messageSystem/AddressService.java" afterPath="$PROJECT_DIR$/src/main/java/messageSystem/AddressService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/resourse/Admin.java" afterPath="$PROJECT_DIR$/src/main/java/resourse/Admin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/AlbumDAO.java" afterPath="$PROJECT_DIR$/src/main/java/database/AlbumDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/AlbumDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/database/AlbumDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/AlbumDataSet.java" afterPath="$PROJECT_DIR$/src/main/java/database/AlbumDataSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/resourse/AlbumQueries.java" afterPath="$PROJECT_DIR$/src/main/java/resourse/AlbumQueries.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/DataBaseQueries/AlbumQueries.xml" afterPath="$PROJECT_DIR$/data/DataBaseQueries/AlbumQueries.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/Cropper.java" afterPath="$PROJECT_DIR$/src/main/java/utils/Cropper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/DBExecutor.java" afterPath="$PROJECT_DIR$/src/main/java/database/DBExecutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/DBService.java" afterPath="$PROJECT_DIR$/src/main/java/base/DBService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/DBServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/database/DBServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/resourse/DataBase.java" afterPath="$PROJECT_DIR$/src/main/java/resourse/DataBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/ImageDAO.java" afterPath="$PROJECT_DIR$/src/main/java/database/ImageDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/ImageDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/database/ImageDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/ImageDataSet.java" afterPath="$PROJECT_DIR$/src/main/java/database/ImageDataSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/resourse/ImageQueries.java" afterPath="$PROJECT_DIR$/src/main/java/resourse/ImageQueries.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/DataBaseQueries/ImageQueries.xml" afterPath="$PROJECT_DIR$/data/DataBaseQueries/ImageQueries.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/messageSystem/Message.java" afterPath="$PROJECT_DIR$/src/main/java/messageSystem/Message.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/messageSystem/MessageSystem.java" afterPath="$PROJECT_DIR$/src/main/java/messageSystem/MessageSystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/SearchService.java" afterPath="$PROJECT_DIR$/src/main/java/base/SearchService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/SearchServiceError.java" afterPath="$PROJECT_DIR$/src/main/java/search/SearchServiceError.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/SearchServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/search/SearchServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/search/SearchServiceResponse.java" afterPath="$PROJECT_DIR$/src/main/java/search/SearchServiceResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/frontEnd/SearchServlet.java" afterPath="$PROJECT_DIR$/src/main/java/frontEnd/SearchServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/SessionDAO.java" afterPath="$PROJECT_DIR$/src/main/java/database/SessionDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/SessionDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/database/SessionDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/SessionDataSet.java" afterPath="$PROJECT_DIR$/src/main/java/database/SessionDataSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/ThreadSettings.java" afterPath="$PROJECT_DIR$/src/main/java/main/ThreadSettings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/database/UserDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/UserDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/database/UserDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/UserDataSet.java" afterPath="$PROJECT_DIR$/src/main/java/database/UserDataSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/UserProfile.java" afterPath="$PROJECT_DIR$/src/main/java/base/UserProfile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/admin.xml" afterPath="$PROJECT_DIR$/data/admin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/tmpl/big_images_tmpl.js" afterPath="$PROJECT_DIR$/public_html/js/tmpl/big_images_tmpl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/big_images_tmpl.xml" afterPath="$PROJECT_DIR$/templates/big_images_tmpl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/breadcrumbs_tmpl.xml" afterPath="$PROJECT_DIR$/templates/breadcrumbs_tmpl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/views/breadcrumbs_view.js" afterPath="$PROJECT_DIR$/public_html/js/views/breadcrumbs_view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/dataBase.xml" afterPath="$PROJECT_DIR$/data/dataBase.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gallery1_tmpl.xml" afterPath="$PROJECT_DIR$/templates/gallery1_tmpl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/views/gallery1_view.js" afterPath="$PROJECT_DIR$/public_html/js/views/gallery1_view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gallery2_tmpl.xml" afterPath="$PROJECT_DIR$/templates/gallery2_tmpl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/views/gallery2_view.js" afterPath="$PROJECT_DIR$/public_html/js/views/gallery2_view.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/index.html" afterPath="$PROJECT_DIR$/public_html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kubanzsk_РПЗ.txt" afterPath="$PROJECT_DIR$/kubanzsk_РПЗ.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/css/main.css" afterPath="$PROJECT_DIR$/public_html/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/lib/jquery.swipebox.min.js" afterPath="$PROJECT_DIR$/public_html/js/lib/jquery.swipebox.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/scripts/justGallery.js" afterPath="$PROJECT_DIR$/public_html/js/scripts/justGallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/kubDB.sql" afterPath="$PROJECT_DIR$/data/kubDB.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/main.js" afterPath="$PROJECT_DIR$/public_html/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/views/main_view.js" afterPath="$PROJECT_DIR$/public_html/js/views/main_view.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/router.js" afterPath="$PROJECT_DIR$/public_html/js/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/script.js" afterPath="$PROJECT_DIR$/public_html/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/lib/search.js" afterPath="$PROJECT_DIR$/public_html/js/lib/search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/models/search_model.js" afterPath="$PROJECT_DIR$/public_html/js/models/search_model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/search_result_tmpl.xml" afterPath="$PROJECT_DIR$/templates/search_result_tmpl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/views/search_view.js" afterPath="$PROJECT_DIR$/public_html/js/views/search_view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/css/swipebox.css" afterPath="$PROJECT_DIR$/public_html/css/swipebox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/tmpl/toolbar_guest_tmpl.js" afterPath="$PROJECT_DIR$/public_html/js/tmpl/toolbar_guest_tmpl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/toolbar_guest_tmpl.xml" afterPath="$PROJECT_DIR$/templates/toolbar_guest_tmpl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/js/views/toolbar_view.js" afterPath="$PROJECT_DIR$/public_html/js/views/toolbar_view.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zerkaloSteclo.iml" afterPath="$PROJECT_DIR$/zerkaloSteclo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/upload/zivotnie.txt" afterPath="$PROJECT_DIR$/public_html/upload/zivotnie.txt" />
     </list>
     <ignored path="zerkaloSteclo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,83 +95,108 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="zerkaloSteclo" />
+    <favorites_list name="zerkaloSteclo">
+      <favorite_root url="search.SearchImpl" module="zerkaloSteclo" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="336.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/336.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="73.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/73.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="102.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/102.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mashiny.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/upload/mashiny.txt">
+      <file leaf-file-name="jquery.swipebox.min.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public_html/js/lib/jquery.swipebox.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1350">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.4414169" vertical-offset="504" max-vertical-offset="12924">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+              <folding>
+                <marker date="1423689039493" expanded="true" signature="12426:12683" placeholder="..." />
+                <marker date="1423689039493" expanded="true" signature="12426:12553" placeholder="..." />
+                <marker date="1423689039493" expanded="true" signature="12426:12775" placeholder="..." />
+                <marker date="1423689039493" expanded="true" signature="12457:12683" placeholder="..." />
+                <marker date="1423689039493" expanded="true" signature="12457:12553" placeholder="..." />
+                <marker date="1423689039493" expanded="true" signature="12520:12561" placeholder="..." />
+                <marker date="1423689039493" expanded="true" signature="12520:12561" placeholder="..." />
+                <marker date="1423689039493" expanded="true" signature="12520:12553" placeholder="..." />
+                <marker date="1423689039493" expanded="true" signature="12593:12730" placeholder="..." />
+                <marker date="1423689039493" expanded="true" signature="12593:12683" placeholder="..." />
+                <marker date="1423689039493" expanded="true" signature="12593:12730" placeholder="..." />
+                <marker date="1423689039493" expanded="true" signature="12621:12722" placeholder="..." />
+                <marker date="1423689039493" expanded="true" signature="12621:12683" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="846">
+              <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zivotnie.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public_html/upload/zivotnie.txt">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5400">
+            <state vertical-scroll-proportion="-5.962963" vertical-offset="73" max-vertical-offset="666">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="icons.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/img/icons.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crop_black.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/img/crop_black.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cut35(2).png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/img/cut35(2).png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cropik.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/img/cropik.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swipebox.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/css/swipebox.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5670">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="118.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/118.jpg">
+      <file leaf-file-name="crop.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/img/crop.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zivotnie_73_m.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/upload/zivotnie/zivotnie_73_m.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zivotnie_73_n.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/upload/zivotnie/zivotnie_73_n.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zivotnie_73_t.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/upload/zivotnie/zivotnie_73_t.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zivotnie_73_b.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/upload/zivotnie/zivotnie_73_b.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="justifiedGallery.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/js/lib/justifiedGallery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="11430" max-vertical-offset="12276">
+              <caret line="635" column="30" selection-start-line="635" selection-start-column="30" selection-end-line="635" selection-end-column="30" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -149,20 +213,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/database/AlbumDAO.java" />
+        <option value="$PROJECT_DIR$/data/dataBaseQueries/AlbumQueries.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/resourse/DataBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/accountService/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/data/AlbumQueries.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/database/AlbumDataSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resourse/AlbumQueries.java" />
+        <option value="$PROJECT_DIR$/data/dataBase.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/database/AlbumDAOImpl.java" />
+        <option value="$PROJECT_DIR$/data/DataBaseQueries/AlbumQueries.xml" />
+        <option value="$PROJECT_DIR$/templates/gallery1.xml" />
+        <option value="$PROJECT_DIR$/templates/gallery2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/search/Search.java" />
+        <option value="$PROJECT_DIR$/src/main/java/search/SearchImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/messageSystem/AddressService.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/Main.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/SendEmail.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/CropImageLocalHelp.java" />
-        <option value="$PROJECT_DIR$/templates/big_images.xml" />
-        <option value="$PROJECT_DIR$/public_html/js/lib/justifiedGallery.js" />
-        <option value="$PROJECT_DIR$/public_html/css/justifiedGallery.min.css" />
-        <option value="$PROJECT_DIR$/public_html/js/views/main_view.js" />
-        <option value="$PROJECT_DIR$/public_html/index.html" />
-        <option value="$PROJECT_DIR$/public_html/js/scripts/justGallery.js" />
-        <option value="$PROJECT_DIR$/public_html/js/main.js" />
-        <option value="$PROJECT_DIR$/public_html/upload/mashiny.txt" />
-        <option value="$PROJECT_DIR$/templates/big_images_tmpl.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/resourse/ImageQueries.java" />
+        <option value="$PROJECT_DIR$/src/main/java/database/ImageCustomDataSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/database/ImageDataSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/database/DBExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/database/ImageDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/DBService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/search/SearchServiceError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/search/SearchServiceResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/SearchService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/search/SearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/database/DBServiceImpl.java" />
+        <option value="$PROJECT_DIR$/data/DataBaseQueries/ImageQueries.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/database/ImageDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Cropper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/frontEnd/SearchServlet.java" />
+        <option value="$PROJECT_DIR$/public_html/js/models/search_model.js" />
+        <option value="$PROJECT_DIR$/templates/breadcrumbs_tmpl.xml" />
+        <option value="$PROJECT_DIR$/public_html/js/views/breadcrumbs_view.js" />
+        <option value="$PROJECT_DIR$/public_html/js/main.js" />
+        <option value="$PROJECT_DIR$/public_html/js/views/search_view.js" />
+        <option value="$PROJECT_DIR$/templates/search_result_tmpl.xml" />
+        <option value="$PROJECT_DIR$/public_html/js/lib/search.js" />
+        <option value="$PROJECT_DIR$/public_html/js/views/toolbar_view.js" />
+        <option value="$PROJECT_DIR$/templates/gallery1_tmpl.xml" />
+        <option value="$PROJECT_DIR$/templates/gallery2_tmpl.xml" />
+        <option value="$PROJECT_DIR$/public_html/index.html" />
+        <option value="$PROJECT_DIR$/public_html/js/router.js" />
+        <option value="$PROJECT_DIR$/public_html/js/scripts/justGallery.js" />
+        <option value="$PROJECT_DIR$/public_html/js/views/main_view.js" />
+        <option value="$PROJECT_DIR$/public_html/js/views/gallery1_view.js" />
+        <option value="$PROJECT_DIR$/public_html/js/views/gallery2_view.js" />
+        <option value="$PROJECT_DIR$/templates/toolbar_guest_tmpl.xml" />
+        <option value="$PROJECT_DIR$/templates/big_images_tmpl.xml" />
+        <option value="$PROJECT_DIR$/public_html/css/swipebox.css" />
+        <option value="$PROJECT_DIR$/public_html/js/lib/jquery.swipebox.min.js" />
       </list>
     </option>
   </component>
@@ -186,9 +287,31 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-744" />
+    <option name="y" value="24" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>BadExpressionStatementJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -219,6 +342,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -403,11 +527,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zerkaloSteclo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zerkaloSteclo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zivotnie" />
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zerkaloSteclo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zerkaloSteclo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zerkaloSteclo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zerkaloSteclo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zerkaloSteclo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zerkaloSteclo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -425,9 +625,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zerkaloSteclo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zerkaloSteclo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zerkaloSteclo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zerkaloSteclo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataBaseQueries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,7 +669,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -446,24 +677,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public_html/img" />
       <recent name="$PROJECT_DIR$/public_html/css" />
       <recent name="$PROJECT_DIR$/public_html/js/lib" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/utils" />
-      <recent name="$PROJECT_DIR$/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public_html/img" />
+      <recent name="$PROJECT_DIR$/data/DataBaseQueries" />
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/public_html/static" />
       <recent name="$PROJECT_DIR$/public_html/css" />
-      <recent name="$PROJECT_DIR$/public_html" />
-      <recent name="$PROJECT_DIR$/src/main/java/utils" />
-      <recent name="$PROJECT_DIR$/public_html/js" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cropper">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -482,7 +715,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="zerkaloSteclo" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -785,28 +1024,45 @@
       <workItem from="1423074238796" duration="843000" />
       <workItem from="1423075129390" duration="7131000" />
       <workItem from="1423085354557" duration="4492000" />
-      <workItem from="1423150255156" duration="2118000" />
+      <workItem from="1423150255156" duration="4380000" />
+      <workItem from="1423250580796" duration="17628000" />
+      <workItem from="1423276031122" duration="1420000" />
+      <workItem from="1423277913431" duration="4503000" />
+      <workItem from="1423400893036" duration="15670000" />
+      <workItem from="1423419732396" duration="11784000" />
+      <workItem from="1423492852746" duration="71000" />
+      <workItem from="1423493237308" duration="6334000" />
+      <workItem from="1423517915339" duration="1105000" />
+      <workItem from="1423519496942" duration="3463000" />
+      <workItem from="1423567040310" duration="246000" />
+      <workItem from="1423567401651" duration="74000" />
+      <workItem from="1423568384348" duration="4551000" />
+      <workItem from="1423574668055" duration="2008000" />
+      <workItem from="1423594610634" duration="6840000" />
+      <workItem from="1423602541311" duration="960000" />
+      <workItem from="1423661270213" duration="680000" />
+      <workItem from="1423688558824" duration="2432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51049000" />
+    <option name="totallyTimeSpent" value="133080000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-744" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25154322" sideWeight="0.5003984" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25771606" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22376543" sideWeight="0.4996016" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -816,7 +1072,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -843,7 +1099,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -851,273 +1107,374 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public_html/static/mashiny/111.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/photos/6791628438_affaa19e10.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/photos/6791628438_affaa19e10_t.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/mashiny/1424.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/mashiny/1417.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/photos/6791628438_affaa19e10_b.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/photos/6791628438_affaa19e10_t.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/mashiny/111.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/photos/6791628438_affaa19e10.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/upload/mashiny/mashiny_111_b.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/upload/mashiny/mashiny_111_m.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/mashiny/452.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/upload/mashiny/mashiny_111.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/165.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/upload/gory.txt">
+    <entry file="file://$PROJECT_DIR$/data/dataBase.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5886">
-          <caret line="6" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="303">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/big_images_tmpl.xml">
+    <entry file="file://$PROJECT_DIR$/data/admin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7668" max-vertical-offset="7776">
-          <caret line="426" column="16" selection-start-line="103" selection-start-column="5" selection-end-line="426" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="328">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/203.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/177.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/197.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Cropper.java">
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1386">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="2358">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/tmpl/big_images_tmpl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="415">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/views/view_manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/models/user_model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/toolbar_user_tmpl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="403">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1585.jpg">
+    <entry file="file://$PROJECT_DIR$/public_html/js/views/alert_view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/views/search_view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="558">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/css/img/icons.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1592.jpg">
+    <entry file="file://$PROJECT_DIR$/public_html/css/img/icons.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="415">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/css/img/loader.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1870.jpg">
+    <entry file="file://$PROJECT_DIR$/public_html/css/justifiedGallery.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2416" max-vertical-offset="2844">
+          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/models/image_model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/models/search_model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="468">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/views/breadcrumbs_view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="558">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/tmpl/gallery2_tmpl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="415">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/views/toolbar_view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1188">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search_result_tmpl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/breadcrumbs_tmpl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/tmpl/gallery1_tmpl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/lib/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="666">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/views/login_view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="1296">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="1602">
+          <caret line="83" column="2" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/swipebox/src/css/swipebox.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="4257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/swipebox/src/css/swipebox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2103" max-vertical-offset="5382">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="992" max-vertical-offset="1422">
+          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/scripts/justGallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="558">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/views/main_view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="918">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/img/loader.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1841.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/lib/swipebox/scss/swipebox.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="193.55556" vertical-offset="5226" max-vertical-offset="5616">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1832.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/templates/gallery2_tmpl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1478" max-vertical-offset="1908">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1747.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/templates/toolbar_guest_tmpl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1722.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1719.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1718.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1712.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1704.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1671.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1670.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1669.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1663.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1375.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1370.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1134.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/1106.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/810.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/536.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/336.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/73.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/102.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/static/zivotnie/118.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/upload/zivotnie/zivotnie_73_m.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/upload/zivotnie/zivotnie_73_n.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/upload/zivotnie/zivotnie_73_t.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/upload/zivotnie/zivotnie_73_b.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/templates/gallery1_tmpl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/upload/mashiny.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/big_images_tmpl.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="13824">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/upload/zivotnie.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="426">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/views/gallery1_view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="630">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/views/gallery2_view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="630">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/img/icons.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="417">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/img/icons.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/img/crop_black.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/img/cut35(2).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/img/cropik.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/css/swipebox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5670">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/img/crop.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/lib/justifiedGallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11448" max-vertical-offset="12186">
+          <caret line="635" column="30" selection-start-line="635" selection-start-column="30" selection-end-line="635" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="846">
+          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.962963" vertical-offset="73" max-vertical-offset="666">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/lib/jquery.swipebox.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4414169" vertical-offset="504" max-vertical-offset="12924">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <marker date="1423689039493" expanded="true" signature="12426:12683" placeholder="..." />
+            <marker date="1423689039493" expanded="true" signature="12426:12553" placeholder="..." />
+            <marker date="1423689039493" expanded="true" signature="12426:12775" placeholder="..." />
+            <marker date="1423689039493" expanded="true" signature="12457:12683" placeholder="..." />
+            <marker date="1423689039493" expanded="true" signature="12457:12553" placeholder="..." />
+            <marker date="1423689039493" expanded="true" signature="12520:12561" placeholder="..." />
+            <marker date="1423689039493" expanded="true" signature="12520:12561" placeholder="..." />
+            <marker date="1423689039493" expanded="true" signature="12520:12553" placeholder="..." />
+            <marker date="1423689039493" expanded="true" signature="12593:12730" placeholder="..." />
+            <marker date="1423689039493" expanded="true" signature="12593:12683" placeholder="..." />
+            <marker date="1423689039493" expanded="true" signature="12593:12730" placeholder="..." />
+            <marker date="1423689039493" expanded="true" signature="12621:12722" placeholder="..." />
+            <marker date="1423689039493" expanded="true" signature="12621:12683" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,10 +1484,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>zerkaloSteclo:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1178,7 +1537,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
